@@ -26,7 +26,8 @@ const Common = (props) => {
                       className="btn btn-outline-primary zoom"
                     >
                       {props.btname}
-                    </Link>
+
+                                          </Link>
                   </div>
                 </div>
 
