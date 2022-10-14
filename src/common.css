@@ -1,3 +1,6 @@
-button:hover{
-    transform: scale(2);
+.zoom {
+  transition: all 0.5s;
+}
+.zoom:hover {
+  transform: scale(1.15);
 }

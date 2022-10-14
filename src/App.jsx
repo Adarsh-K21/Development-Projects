@@ -3,7 +3,7 @@ import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
 import Service from "./Service";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
 import data from "./data.json";
 import Footer from "./Footer";
@@ -18,6 +18,7 @@ const App = () => {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/service" element={<Service />} />
         <Route exact path="/contact" element={<Contact />} />
+
         {/* <Navigate to="/"/> */}
       </Routes>
       <Footer footer={data.footer} />

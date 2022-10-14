@@ -21,7 +21,10 @@ const Common = (props) => {
                   </h2>
 
                   <div className="mt-3">
-                    <Link to={props.btLink} className="btn btn-outline-primary hover-zoom">
+                    <Link
+                      to={props.btLink}
+                      className="btn btn-outline-primary zoom"
+                    >
                       {props.btname}
 
                                           </Link>
