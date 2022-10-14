@@ -26,13 +26,15 @@ Here is a simple way to contribut to the project.
 * Clone your fork down to your local machine
 ```markdown
 git clone <url> (given in clone or download button)
-
+```
 * Run in your localhost
 ```markdown
 npm install
+```
 ```markdown
 npm start
 ```
+
 * Make your changes (Choose from any task below)
 * Commit and Push
 ```markdown
