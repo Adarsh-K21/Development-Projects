@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','Mulish', sans-serif;
+      
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .navbar{
+    background: white !important;
+   
+  }
+  .namea{
+    font-weight: bold;
+  }
+  .sasur{
+    font-weight: bold;
+  }
+  
+  .navbar-brand{
+    color: darkcyan !important;
+    font-size: 1.6rem !important;
+  }
+  .navbar a:hover{
+    color: darkcyan !important;
+    font-size: 1.1rem;
+  }
+
+  .pg{
+    margin-top: 12px;
+    font-size: 1.5rem;
+    color: lightslategray;
+    text-shadow: 2px  black;
+  }
+
+  h1 .brand-name{
+    font-weight: bold;
+    color: blueviolet;
+    width: 8ch;
+    animation : typing 2s steps(8), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    
+  }
+@keyframes typing{
+    from {
+        width: 0
+    }
+}
+@keyframes blink{
+    50% {
+        border-color: transparent
+    }
+}
+
+.img-fluid{
+    height: 30rem;
+    width: 30rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+img.animated {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.animated {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+
+  .brand-name:hover{
+    color: darkblue;
+    
+  }
+  .class_active{
+    font-weight: bold;
+
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  i{
+    cursor:pointer;
+  }
+
+  .jaiho{
+ 
+    height: 250px;
+  }
+
+  .foot{
+    margin-top: 4%;
+  }
