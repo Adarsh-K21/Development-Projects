@@ -19,7 +19,7 @@ A month-long celebration from October 1st - 31st sponsored by [Digital Ocean](ht
 
 ## How Contribute to This Project
 Here is a simple way to contribut to the project.
-* Create a simple 'Hello, World' script in a language of your choice
+
 
 ## Getting Started
 * Fork this repository (Click the Fork button in the top right of this page, click your Profile Image)
