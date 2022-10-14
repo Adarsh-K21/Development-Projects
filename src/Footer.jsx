@@ -4,7 +4,7 @@ const Footer=()=>{
     return(
         <>
         <footer className="w-100 bg-light text-center foot">
-            <p> © 2022 Adarsh Kumar</p>
+            <p> heyr</p>
 
         </footer>
         </>
