@@ -27,31 +27,17 @@ Here is a simple way to contribut to the project.
 ```markdown
 git clone <url> (given in clone or download button)
 ```
-* Create a branch
-```markdown
-git checkout -b branch-name
-```
 * Make your changes (Choose from any task below)
 * Commit and Push
 ```markdown
 git add .
 git commit -m 'commit message'
-git push origin branch-name
+git push origin branch-name(main/master)
 ```
 * Create a New Pull Request from your forked repository (Click the New Pull Request button located at the top of your repo)
 * Wait for your PR review and merge approval!
 * __Star this repository__ for higher chance of merge approval!
 
-### Create a `Hello, World!` Script
-Add a `hello_world_yourusername.xx` script to the `scripts` directory in any language of your choice! Here is an example:
-
-print("hello world!")
-
-Name the file `yourusername.xx`. e.g., `sbmsc.py` or `sbmsc.js`.
-
-## BONUS!
-* Discover some obscure to new and trending languages. From BrainFuck to Groovy.
-* Check out very creative ways to print out a Hello, World!
 
 ## Reference Links
 Here is a great tutorial for creating your first Pull Request by [Roshan Jossey](https://github.com/Roshanjossey)
