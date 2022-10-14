@@ -1,6 +1,7 @@
 import React from "react";
 // import Web from "../src/images/img1.svg";
 import { Link } from "react-router-dom";
+import "./common.css";
 
 const Common = (props) => {
   return (
@@ -20,9 +21,10 @@ const Common = (props) => {
                   </h2>
 
                   <div className="mt-3">
-                    <Link to={props.btLink} className="btn btn-outline-primary">
+                    <Link to={props.btLink} className="btn btn-outline-primary hover-zoom">
                       {props.btname}
-                    </Link>
+
+                                          </Link>
                   </div>
                 </div>
 
