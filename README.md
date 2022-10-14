@@ -40,6 +40,8 @@ npm start
 ```markdown
 git add .
 git commit -m 'commit message'
+go to your forked project and Sync fork
+git pull origin branch-name(main/master)
 git push origin branch-name(main/master)
 ```
 * Create a New Pull Request from your forked repository (Click the New Pull Request button located at the top of your repo)
