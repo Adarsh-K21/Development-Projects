@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+// import PropTypes from "prop-types";
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <>
       <div className="container-fluid nav_bg">
@@ -68,7 +69,6 @@ const Navbar = () => {
                         Contact
                       </Link>
                     </li>
-                    
                   </ul>
                 </div>
               </div>
