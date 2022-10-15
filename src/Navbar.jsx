@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import "./Navbar.css";
+
+import Button from "react-bootstrap/Button";
+
+import Form from "react-bootstrap/Form";
+
 // import PropTypes from "prop-types";
 
-const Navbar = (props) => {
+const Navbar = () => {
   return (
     <>
       <div className="container-fluid nav_bg">
@@ -24,6 +30,18 @@ const Navbar = (props) => {
                 >
                   <span className="navbar-toggler-icon"></span>
                 </button>
+
+                <Form className="d-flex ">
+                  <Form.Control
+                    type="search"
+                    placeholder="Search"
+                    className="me-2 width"
+                    aria-label="Search"
+                  />
+                  <Button variant="outline-success" className="search-bar">
+                    Search
+                  </Button>
+                </Form>
                 <div
                   className="collapse navbar-collapse"
                   id="navbarSupportedContent"
