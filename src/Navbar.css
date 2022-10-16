@@ -1,28 +1,29 @@
 .search-bar:hover {
-  background-color: #0d6efd;
-  color: white;
+    background-color: #0d6efd;
+    color: white;
 }
 
 .width {
-  width: 42vmax;
-  height: 2vmax;
+    /* width: 42vmax; */
+    width: 100%;
+    height: 3vmax;
 }
 
 .search-bar {
-  height: 2vmax;
-  display: flex;
-  color: #0d6efd;
-  border-color: #0d6efd;
-  justify-content: center;
-  align-items: center;
+    height: 3vmax;
+    display: flex;
+    color: #0d6efd;
+    border-color: #0d6efd;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 640px) {
-  #searchbox {
-    display: block;
-  }
-  #secondaryLogo {
-    display: block;
-    width: auto;
-  }
+    #searchbox {
+        display: block;
+    }
+    #secondaryLogo {
+        display: block;
+        width: auto;
+    }
 }
