@@ -3,11 +3,11 @@ import Web from "../src/images/home.jpg";
 // import {Link} from "react-router-dom";
 import Common from "./Common";
 
-const Home=()=>{
+const Home = () => {
 
-    return(
+    return (
         <>
-       <Common name="Grow your business with" btname="Get Started" btLink="/service" imgSrc={Web}/>
+            <Common name="Grow your business with" btname="Get Started" btLink="/service" imgSrc={Web} />
         </>
     );
 };

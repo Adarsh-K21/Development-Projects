@@ -56,8 +56,8 @@ const Footer = ({ footer }) => {
             </a>
           ))}
         </div>
-        <div></div>
-        <div></div>
+        {/* <div></div>
+        <div></div> */}
 
         <div>
           <div>Chat with our Virtual AI Bot(24/7 Live Agent Support)</div>
