@@ -6,11 +6,7 @@ const Footer = ({ footer }) => {
   return (
     <>
       <div className="PreFooter2">
-        <div>
-          {" "}
-          <p>LET'S STAY IN TOUCH</p>
-          <span>Get updates on sales specials and more</span>
-        </div>
+        
 
         <div>
           <div>
@@ -35,15 +31,7 @@ const Footer = ({ footer }) => {
       </div>
 
       <div className="footer">
-        <div>
-          <p> SUPPORT</p>
-          {footer.support.map((item, index) => (
-            <a key={item.url} href={item.url}>
-              {item.name}
-            </a>
-          ))}
-        </div>
-
+       
         <div>
           <p> ABOUT US</p>
           {facebookIcon} {youtubeIcon} {instagramIcon} {twitterIcon}
