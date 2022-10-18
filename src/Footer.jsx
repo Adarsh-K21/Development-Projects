@@ -1,6 +1,7 @@
 import React from "react";
 import "./Prefooter.css";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = ({ footer }) => {
   return (
@@ -49,7 +50,7 @@ const Footer = ({ footer }) => {
 
         <div>
           <div>Chat with our Virtual AI Bot(24/7 Live Agent Support)</div>
-          <button>CHAT NOW</button>
+          <Link to="/chatBot"><button>CHAT NOW</button></Link>
         </div>
       </div>
       <div className="footerBorder">
