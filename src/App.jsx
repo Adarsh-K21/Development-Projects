@@ -7,6 +7,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
 import data from "./data.json";
 import Footer from "./Footer";
+import ChatBot from "./chatBot"
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/service" element={<Service />} />
         <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/chatBot" element={<ChatBot />} />
 
         {/* <Navigate to="/"/> */}
       </Routes>
